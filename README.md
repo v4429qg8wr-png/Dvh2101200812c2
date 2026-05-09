@@ -24,8 +24,6 @@ body{
     overflow-x:hidden;
 }
 
-/* HEADER */
-
 header{
     height:100vh;
     background:
@@ -89,8 +87,6 @@ header::after{
     background:#b94b4b;
 }
 
-/* MENU */
-
 nav{
     background:rgba(217,108,108,0.9);
     backdrop-filter:blur(10px);
@@ -122,8 +118,6 @@ nav ul li a:hover{
     color:#ffe5e5;
 }
 
-/* SECTION */
-
 section{
     width:90%;
     max-width:1200px;
@@ -147,8 +141,6 @@ section{
     font-size:18px;
 }
 
-/* PROFILE */
-
 .profile{
     background:rgba(255,255,255,0.75);
     padding:50px;
@@ -168,8 +160,6 @@ section{
     margin:12px 0;
     font-size:18px;
 }
-
-/* CARD */
 
 .cards{
     display:grid;
@@ -196,8 +186,6 @@ section{
     color:#c94f4f;
 }
 
-/* QUOTE */
-
 .quote{
     background:linear-gradient(135deg,#d96c6c,#f2aaaa);
     color:white;
@@ -218,8 +206,6 @@ section{
     line-height:2;
 }
 
-/* FOOTER */
-
 footer{
     background:#c94f4f;
     color:white;
@@ -232,8 +218,6 @@ footer p{
     margin:8px 0;
 }
 
-/* ANIMATION */
-
 @keyframes fadeIn{
     from{
         opacity:0;
@@ -245,8 +229,6 @@ footer p{
         transform:translateY(0);
     }
 }
-
-/* RESPONSIVE */
 
 @media(max-width:768px){
 
@@ -274,8 +256,6 @@ footer p{
 
 <body>
 
-<!-- HEADER -->
-
 <header>
 
 <div class="hero">
@@ -293,8 +273,6 @@ nơi lưu giữ những kỷ niệm, ước mơ và tình bạn không thể qu�
 
 </header>
 
-<!-- MENU -->
-
 <nav>
 
 <ul>
@@ -307,8 +285,6 @@ nơi lưu giữ những kỷ niệm, ước mơ và tình bạn không thể qu�
 </ul>
 
 </nav>
-
-<!-- PROFILE -->
 
 <section id="profile">
 
@@ -330,8 +306,6 @@ nơi lưu giữ những kỷ niệm, ước mơ và tình bạn không thể qu�
 </div>
 
 </section>
-
-<!-- MEMORY -->
 
 <section id="memory">
 
@@ -379,8 +353,6 @@ cùng chia sẻ niềm vui và khó khăn.
 
 </section>
 
-<!-- TEACHER -->
-
 <section id="teacher">
 
 <div class="title">
@@ -427,8 +399,6 @@ mà thầy cô đã dành cho lớp.
 
 </section>
 
-<!-- DREAM -->
-
 <section id="dream">
 
 <div class="title">
@@ -448,7 +418,6 @@ những ước mơ và mục tiêu riêng.
 </p>
 
 </div>
-<!-- SORRY -->
 
 <section id="sorry">
 
@@ -526,8 +495,6 @@ mọi người sẽ đạt được thành công và hạnh phúc.
 
 </section>
 
-<!-- QUOTE -->
-
 <section id="quote">
 
 <div class="quote">
@@ -546,8 +513,6 @@ Một thuở học trò giữ mãi tình thân.”
 </div>
 
 </section>
-
-<!-- FOOTER -->
 
 <footer>
 
